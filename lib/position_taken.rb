@@ -1,16 +1,10 @@
 # code your #position_taken? method here!
-
 def position_taken?(board, index)
-
-  if (board == [" ", " ", " ", " ", " ", " ", " ", " ", " "] && index == 0){
+  if board[index] == nil
     return false
-  }
-
-  for(let i=0;i<board.length;i++){
-    if (board[i] == nil){
-      return false
-    }elsif(board[i] == "X" || board[i] == "O"){
-      return true
-    }
-  }
+  elsif (board[index] ==  " " || board[index] == "")
+    return false
+  else
+    return true
+  end
 end
