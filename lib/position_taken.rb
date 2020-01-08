@@ -1,10 +1,11 @@
 # code your #position_taken? method here!
 
-def position_taken?(board, index)
+def position_taken?(board, index){
 
   if (board == [] && index == 0){
     return
   }
+
 
   if (board == [" ", " ", " ", " ", " ", " ", " ", " ", " "] && index == 0){
     return false
@@ -19,6 +20,6 @@ def position_taken?(board, index)
 
   }
 
-
+}
 
 end
