@@ -3,7 +3,7 @@
 def position_taken?(board, index)
 
   if (board == [] && index == 0){
-    return 
+    return
   }
 
   if (board == [" ", " ", " ", " ", " ", " ", " ", " ", " "] && index == 0){
@@ -14,11 +14,11 @@ def position_taken?(board, index)
     if (board[i] = nil || board[i] == ){
       return false
     }elsif(board[i] == "X" || board[i] == "O"){
-      return true 
+      return true
     }
-    
+
   }
 
-  
+
 
 end
