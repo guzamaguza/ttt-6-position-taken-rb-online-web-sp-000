@@ -7,7 +7,7 @@ def position_taken?(board, index)
   }
 
   for(let i=0;i<board.length;i++){
-    if (board[i] = nil || board[i] == " "){
+    if (board[i] == nil){
       return false
     }elsif(board[i] == "X" || board[i] == "O"){
       return true
